@@ -291,7 +291,7 @@ VOID MemoryCopyVectorized(
 		switch (DestinationAddressAlignment) {
 		case 0:
 			break;
-		default
+		default:
 			return;
 		}
 	default:
